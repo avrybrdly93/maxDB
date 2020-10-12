@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="slidecontainer">
+      <input
+        type="range"
+        min="50000"
+        max="250000"
+        value="150000"
+        class="slider"
+        id="myRange"
+      />
+    </div>
+    <br />
+    <div id="labels">
+      <div class="label">
+        <p1>Death Benefit:</p1>
+        <div id="death-benefit"></div>
+      </div>
+
+      <div class="label">
+        <p1 style="text-align: right; width: 50%">Graph Limit:</p1>
+        <div id="graph-limit"></div>
+      </div>
+      <div class="label">
+        <p1 style="text-align: right; width: 50%">Limit to DB Ratio:</p1>
+        <div id="limit-ratio"></div>
+      </div>
+    </div>
+
+    <div class="slidecontainer">
+      <input
+        type="range"
+        min="50000"
+        max="250000"
+        value="150000"
+        class="slider"
+        id="myRange2"
+      />
+    </div>
+    <br />
+    <div id="labels2">
+      <div class="label">
+        <p1>Death Benefit:</p1>
+        <div id="death-benefit2"></div>
+      </div>
+
+      <div class="label">
+        <p1 style="text-align: right; width: 50%">Graph Limit</p1>
+        <div id="graph-limit2"></div>
+      </div>
+      <div class="label">
+        <p1 style="text-align: right; width: 50%">Limit to DB Ratio:</p1>
+        <div id="limit-ratio2"></div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
